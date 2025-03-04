@@ -1,0 +1,136 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background: rgba(0, 0, 0, 0.1) url('background.jpg') no-repeat center center fixed;
+    background-size: cover;	
+    color: black;
+    font-size: 11pt;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px; /* Sayfa içeriğinin maksimum genişliği */
+    margin: 0 auto; /* Sayfayı merkeze hizalama */
+    padding: 10px; /* İçerikler arasında boşluk bırakma */
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
+/* Başlık stilleri */
+h1, h2, h4 {
+    color: #FFF;
+    margin-bottom: 0;
+}
+
+/* Buton stilleri */
+button {
+    background-color: #FF7E00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#txtDecpassphrase {
+    background-color: #FF7E00; /* TextBox'ın arka plan rengi */
+    color: black; /* Yazı rengi */
+}
+
+
+#txtEncpassphrase,
+#txtEncpassphraseretype {
+    background-color: #FF7E00; /* TextBoxların arka plan rengi */
+    color: black; /* Yazı rengi */
+}
+
+
+button:hover {
+    background-color: #CD5700;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Link stilleri */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Dropzone stilleri */
+.dropzone {
+    border: 2px dashed #FF7E00;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tablo stilleri */
+.divTable {
+    display: table;
+    width: 100%;
+}
+
+.divTableRow {
+    display: table-row;
+}
+
+.divTableCell {
+    display: table-cell;
+    padding: 10px;
+}
+
+/* Renkli metin stilleri */
+.greenspan {
+    color: green;
+}
+
+.redspan {
+    color: red;
+}
+
+#main-content {
+  flex: 1;
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow-y: auto;
+  max-height: 70vh; /* Maksimum yükseklik belirleme */
+  scrollbar-width: thin; /* Firefox için scrollbar kalınlığı ayarı */
+}
+
+#main-content::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+#main-content::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background-color: #ff6f00;
+  border-radius: 10px;
+}
+
+#main-content::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
