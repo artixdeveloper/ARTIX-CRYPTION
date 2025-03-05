@@ -13,7 +13,6 @@ ARTIX-CRYPTION, güvenli ve hızlı veri şifreleme işlemleri için geliştiril
    git clone https://github.com/artixdeveloper/ARTIX-CRYPTION.git
    ```
 2. **Dosyaları bir web sunucusunda çalıştırın** (Apache, Nginx veya yerel bir sunucu kullanılabilir).
-3. **Gerekli bağımlılıkları yükleyin** (Eğer bir paket yöneticisi kullanılıyorsa buraya ekleyin).
 
 ## Kullanım
 1. Tarayıcınızda `index.html` dosyasını açarak uygulamayı çalıştırabilirsiniz.
